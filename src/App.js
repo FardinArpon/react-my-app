@@ -17,10 +17,10 @@ const [weather,setWeather]=useState('');
     }
   
     return (
-        <div className="My_Busket">
+        <div className="bucket">
         <input 
         type="text"
-        placeholder="Search town ..."
+        placeholder="Find town ..."
         className="Find"
         value={query}
         onChange={(e)=>setQuery(e.target.value)}
